@@ -34,13 +34,7 @@ function MuiImageList() {
                   </ImageListItem>
               ))
               }
-              {itemData3.map((item) => (
-                  <ImageListItem key={item.img}>
-                      <img src={`${item.img}?w=248&fit=crop&auto=format&dpr=2`} 
-                      alt={item.title} loading="lazy"/>
-                  </ImageListItem>
-              ))
-              }
+        
           </ImageList>
         </Box>
     </Stack>
